@@ -8,3 +8,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+table {
+  width: 640px;
+  border-collapse: collapse;
+  margin: 100px;
+}
+
+th, td {
+  border: 1px solid rgba(0,0,0,.16);
+  padding: 10px;
+}
+
+th {
+  border-top: none;
+}
+
+th:first-child {
+  border-left: none;
+}
+
+th:last-child {
+  border-right: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr > td:first-child {
+  border-left: none;
+}
+
+tr > td:last-child {
+  border-right: none;
+}
+
+
