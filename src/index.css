@@ -43,4 +43,8 @@ tr > td:last-child {
   border-right: none;
 }
 
+tr > td:last-child {
+  padding: 0;
+}
+
 
